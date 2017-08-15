@@ -2,13 +2,53 @@ module.exports = {
   hubs: {
     "you": {
       id: "you",
-      feeds: ["1"]
+      title: "You",
+      feeds: ["in-progress", "your-shows", "your-channels", "you-might-like", "recently-aired", "favorites", "bookmarks", "purchases"],
+      defaultFeed: "in-progress"
+    },
+    "live-tv": {
+      id: "live-tv",
+      title: "Live TV",
+      feeds: []
+    },
+    "on-demand": {
+      id: "on-demand",
+      title: "On Demand",
+      feeds: []
     }
   },
   feeds: {
     "in-progress": {
       id: "in-progress",
       videos: ["1"]
+    },
+    "your-shows": {
+      id: "your-shows",
+      videos: []
+    },
+    "your-channels": {
+      id: "your-channels",
+      videos: []
+    },
+    "you-might-like": {
+      id: "you-might-like",
+      videos: []
+    },
+    "recently-aired": {
+      id: "recently-aired",
+      videos: []
+    },
+    "favorites": {
+      id: "favorites",
+      videos: []
+    },
+    "bookmarks": {
+      id: "bookmarks",
+      videos: []
+    },
+    "purchases": {
+      id: "purchases",
+      videos: []
     }
   },
   videos: {

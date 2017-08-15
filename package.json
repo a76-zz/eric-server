@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "bunyan": "^1.8.5",
+    "eric-config": "https://github.com/a76/eric-config.git",
     "express": "^4.14.0",
     "express-session": "^1.14.2",
     "helmet": "^3.1.0",
@@ -16,8 +17,7 @@
     "level-session-store": "^2.0.1",
     "lodash": "^4.17.2",
     "node-uuid": "^1.4.7",
-    "socket.io": "^1.7.2",
-    "eric-config": "https://github.com/a76/eric-config.git"
+    "socket.io": "^1.7.2"
   },
   "standard": {
     "ignore": [
