@@ -20,34 +20,42 @@ module.exports = {
   feeds: {
     "in-progress": {
       id: "in-progress",
+      title: "In Progress",
       videos: ["1"]
     },
     "your-shows": {
       id: "your-shows",
+      title: "Your Shows",
       videos: []
     },
     "your-channels": {
       id: "your-channels",
+      title: "Your Channels",
       videos: []
     },
     "you-might-like": {
       id: "you-might-like",
+      title: "You Might Like",
       videos: []
     },
     "recently-aired": {
       id: "recently-aired",
+      title: "Recently Aired",
       videos: []
     },
     "favorites": {
       id: "favorites",
+      title: "Favorites",
       videos: []
     },
     "bookmarks": {
       id: "bookmarks",
+      title: "Bookmarks",
       videos: []
     },
     "purchases": {
       id: "purchases",
+      title: "Purchases",
       videos: []
     }
   },
