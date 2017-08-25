@@ -62,7 +62,7 @@ module.exports = {
   videos: {
     "1": {
       id: "1",
-      uri: "/",
+      uri: "theresa-may-wont-be-afraid-to-challenge-donald-trum.mp4",
       title: "Theresa May 'won't be afraid' to challenge Donald Trump - BBC News",
       description: "Theresa May says she won't be afraid to tell Donald Trump if he says or does anything she feels is unacceptable. The two will ...",
       duration: {

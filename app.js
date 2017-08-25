@@ -26,8 +26,6 @@ const sessionMiddleware = session({
 })
 app.use(sessionMiddleware)
 
-
-
 // copies express sessions to socket-io
 io.use((socket, next) => sessionMiddleware(socket.request, socket.request.res, next))
 // saves having to type "socket.request.session.user" everywhere
